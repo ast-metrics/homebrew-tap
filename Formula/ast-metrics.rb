@@ -31,6 +31,6 @@ class AstMetrics < Formula
   end
 
   test do
-    system "#{bin}/ast-metrics", "--version"
+    system "#{bin}/ast-metrics", "version"
   end
 end
