@@ -1,28 +1,28 @@
 class AstMetrics < Formula
   desc "Multi-language code analyzer: complexity, coupling, maintainability"
   homepage "https://ast-metrics.dev"
-  version "0.40.3"
+  version "0.41.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.40.3/ast-metrics_Darwin_arm64"
-      sha256 "4b8a969ab8390428e124a19aa00cc63a0e5d631173f8cdf933b9dd6053f9abc2"
+      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.41.0/ast-metrics_Darwin_arm64"
+      sha256 "b9b206cafc5a9e1eafc168de82712efca0b5c5a71612ceffad703b7efcd28446"
     end
     on_intel do
-      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.40.3/ast-metrics_Darwin_x86_64"
-      sha256 "20407a5fe65eb3b49d4b4f3b0564f7484a4a1bba61f16494435658b2b7a5df93"
+      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.41.0/ast-metrics_Darwin_x86_64"
+      sha256 "806a7571d6fe99c8350001f0a75763e675fd5c0c5c04de794fd372a71e0c125e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.40.3/ast-metrics_Linux_arm64"
-      sha256 "5ff6a5b2d2070e14d56c6741f3d67ef4191c70a5df9c72e9ed9a2ec66781534c"
+      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.41.0/ast-metrics_Linux_arm64"
+      sha256 "ae0024f1caf18ff3f71d327ea2c060fef4ddbc45d16cf9096c0edea677b0ae37"
     end
     on_intel do
-      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.40.3/ast-metrics_Linux_x86_64"
-      sha256 "a653511b720b710573e6786739b15053320f11b8bf1a1ec79c3fe3929566d67d"
+      url "https://github.com/ast-metrics/ast-metrics/releases/download/v0.41.0/ast-metrics_Linux_x86_64"
+      sha256 "1a2515203433060a5f7206d0489445e710deb2c50e894e3b8d5e8956c6d386ab"
     end
   end
 
